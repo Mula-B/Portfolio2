@@ -1,0 +1,178 @@
+body, html {
+    height: auto;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.bg {
+    background-image: url("../img/hout.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.container{
+  height: 100%;
+  padding-top: 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e3e9ed;
+  background: rgb(248,248,255);
+  background: rgba(255,240,245, 0.5);
+  border-radius: 50px 50px 0px 0px;
+  position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding-left: 25px;
+    overflow: hidden;
+    background-color: rgba(126,191,194,0.8);
+    font-size: 17px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+li a:hover {
+    background-color: rgba(97,148,150,1);
+    text-decoration:none;
+    color: white;
+    padding: 14px 30px;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.logo h1{
+  font-size: 50px;
+  line-height: 52px;
+  color: #c85b5f;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 30px;
+  letter-spacing: 7px;
+}
+
+.site-header{
+  text-align: center;
+  padding-top: 65px;
+  border-radius: 3px 3px 0 0;
+  height: 100%;
+}
+
+.single-pattern-container {
+height: 100%;
+margin-top: 50px;
+background-color: rgba(126,191,194,0.9);
+text-align: center;
+margin-left: 80px;
+margin-right: 80px;
+font-size: 17px;
+padding-top: 30px;
+border-radius: 40px 40px 0px 0px;
+}
+
+.context{
+  background-color: #c3d7dc;
+  border-radius: 40px 40px 0px 0px;
+  padding: 50px;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 425px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 500px;
+  width: 700px;
+}
+
+.slide:nth-child(1) {
+  background-image: url("../img/kinderboerderij1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.slide:nth-child(2) {
+  background-image: url("../img/koe.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.slide:nth-child(3) {
+  background-image: url("../img/lammetje1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.slide:nth-child(4) {
+  background-image: url("../img/lammetje2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+#logo {
+  border-radius: 15px;
+  margin-bottom: 40px;
+  width: 180px;
+  height: 190px;
+}
+
+#titel{
+  margin-bottom: 25px;
+}
+
+.footer{
+  padding: 70px;
+  text-align: center;
+}
+
+.footertijd{
+border-radius: 40px 40px 0px 0px;
+background-color: rgba(126,191,194,0.9);
+margin-left: 80px;
+margin-right: 80px;
+}

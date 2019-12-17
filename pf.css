@@ -1,0 +1,36 @@
+.navbar {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.navbar-brand {
+	float: left;
+}
+
+#welkom {
+	padding: 40px;
+}
+
+#fade {
+
+
+    -webkit-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body {
+	background: #eeeeee;
+}
+
+.progress-bar-striped {
+    background-color: gray;
+}

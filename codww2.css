@@ -1,0 +1,172 @@
+.foto1 {
+	top: 0%;
+	position: center;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: grey;
+	text-align: center;
+	font-family: impact;
+	padding-left: 50px;
+	font-size: 100%;
+}
+
+a {
+    float: left;
+}
+
+a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover {
+    background-color: gold;
+}
+.active {
+    background-color: gold;
+}
+
+#campaign {
+	background: gold;
+	font-family: impact;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	width: 600px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+h2 {
+	text-align: center;
+	color: gold;
+	font-family: impact;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+iframe {
+float: right;
+margin-right: 80px;
+margin-top: -235px;
+}
+
+#multiplayer {
+	background: gold;
+	font-family: impact;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	width: 600px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+#trailer {
+	float: right;
+	margin-top: -615px;
+}
+
+table, th, td {
+    border: 3px solid black;
+	background: gold;
+	font-family: impact;
+	padding: 5px;
+	text-align: center;
+	margin-left: 78px;
+}
+
+caption {
+	color: gold;
+}
+
+#streak {
+	float: right;
+	background: gold;
+	font-family: impact;
+	margin-top: -320px;
+	margin-right: 239px;
+}
+
+.foto2 {
+	float: right;
+	margin-right: 80px;
+	margin-top: -655px;
+}
+
+#zombies {
+	background: gold;
+	font-family: impact;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	width: 600px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+#zombiestrailer {
+	float: right;
+	margin-top: -588px;
+}
+
+.foto3 {
+	float: left;
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+#tekst {
+	color: gold;
+	font-family: impact;
+	margin-left: 300px;
+	margin-top: 50px
+}
+	
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	font-family: impact;
+}
+
+input[type=submit] {
+    background-color: gold;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: impact;	
+}
+
+input[type=submit]:hover {
+    background-color: #cccc00;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	font-family: impact;
+}

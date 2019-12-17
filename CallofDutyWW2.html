@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<link rel=stylesheet href="codww2.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="shortcut icon" href="faviconcod.ico" type="image/x-icon" />
+
+<title>Call of Duty WW2</title>
+
+</head>
+<body bgcolor="black">
+<div align="center">
+<img class=foto1 src="codww2text2.jpg" alt="Call Of Duty WW2" >
+</div>
+
+<ul id="nav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="codww2campaign.html">Campaign</a></li>
+  <li><a href="ww2multiplayer.html">Multiplayer</a></li>
+  <li><a href="ww2zombies.html">Zombies</a></li>
+  <li><a href="contactww2.html">Contact</a></li>
+</ul>
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<br>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="codww21.jpg" style="width:100%">
+  <img class="mySlides" src="codww22.jpg" style="width:100%">
+  <img class="mySlides" src="headquaders.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
